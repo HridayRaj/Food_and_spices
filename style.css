@@ -1,0 +1,87 @@
+
+
+body{
+    background-image: url("paper.gif");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+#example1 {
+    background: url(img_tree.gif) left top no-repeat, url(img_flwr.gif) right bottom no-repeat, url(one.gif) left top repeat;
+    padding: 15px;
+    background-size: 50px, 130px, auto;
+    
+}
+.heading{
+    font-family: cursive;
+    
+
+}
+.para{
+    font-family: cursive;
+    font-size: 20px;
+    color:#fff;
+}
+#example2 {
+    background-color: azure;
+    padding: 15px;
+    background-size: 50px, 130px, auto;
+    
+    
+}
+.container{
+    
+    background: azure;
+    padding: auto;
+    margin: auto;
+}
+.second {
+    background-image: url("paper.gif");
+    width: 100%;
+    height: 100%;
+}
+.second img{
+    text-align: center;
+}
+.p{
+    font-family: cursive;
+    font-size: 18px;
+}
+.second1{
+    text-align: center;
+
+
+}
+.second1 img{
+    width: 500px;
+    height: 500px;
+}
+.second1 p{
+    text-align: center;
+    text-decoration: brown;
+    font-display: bold;
+    font-family: cursive;
+}
